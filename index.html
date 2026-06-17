@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UsmanovaFit — Онлайн-программы Екатерины Усмановой</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <header class="site-header" id="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__logo" href="#">UsmanovaFit</a>
+        <nav class="site-header__nav">
+          <a href="#programs">Программы</a>
+          <a href="#trust">О Кате</a>
+          <a href="#lead-form">Подбор программы</a>
+        </nav>
+        <button class="button button--primary site-header__cta" data-scroll="#lead-form">Записаться</button>
+        <button class="burger" id="burger" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero__inner">
+          <div class="hero__copy">
+            <p class="eyebrow">Онлайн-программы Екатерины Усмановой</p>
+            <h1>Приведите тело в форму с чемпионкой Катей Усмановой</h1>
+            <p class="hero__lead">без диет, голода и запретов<br />с пользой для здоровья</p>
+            <p class="hero__text">
+              Похудеть, подтянуть попу и живот, набрать форму в зале,
+              восстановиться после родов — тренировки и питание под вашу цель.
+            </p>
+            <div class="hero__actions">
+              <button class="button button--primary" data-scroll="#programs">Выбрать программу</button>
+              <button class="button button--ghost" data-scroll="#lead-form">Получить подбор</button>
+            </div>
+          </div>
+          <div class="hero__visual" aria-label="Катя Усманова с гантелью">
+            <div class="hero__glow"></div>
+            <img
+              src="./assets/hero.png"
+              alt="Катя Усманова"
+              class="hero__photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" id="trust">
+        <div class="section-head reveal">
+          <h2>Доверьте своё тело чемпионке фитнес-бикини и тренеру <span>Кате Усмановой</span></h2>
+          <p>С 2015 года создаёт тренировки для идеальных ягодиц, плоского живота и стройности без жёстких диет.</p>
+        </div>
+
+        <div class="trust__grid">
+          <div class="trust__card reveal">
+            <ul class="check-list">
+              <li>Вице-чемпионка мира и чемпионка России по фитнес-бикини</li>
+              <li>Профессиональный фитнес-тренер с опытом более 15 лет</li>
+              <li>Мама 2-х детей: восстановилась после родов и вернулась в форму</li>
+              <li>Автор первых в России масштабных марафонов стройности</li>
+              <li>Чемпионка России и мира по жиму лёжа</li>
+            </ul>
+          </div>
+          <div class="trust__photos reveal">
+            <img src="./assets/trust-1.png" alt="Фото Кати Усмановой" />
+            <img src="./assets/trust-2.png" alt="Фото Кати Усмановой" />
+          </div>
+        </div>
+      </section>
+
+      <section class="programs" id="programs">
+        <div class="section-head section-head--left reveal">
+          <h2>Выберите цель, а мы подскажем стартовую программу</h2>
+          <p>Три направления: домашние тренировки, занятия в зале и восстановление после родов.</p>
+        </div>
+
+        <div class="quiz reveal" aria-label="Выбор цели">
+          <button class="quiz__option is-active" data-goal="home">Тренировки дома</button>
+          <button class="quiz__option" data-goal="gym">Тренировки в зале</button>
+          <button class="quiz__option" data-goal="recovery">После родов</button>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" data-type="home">
+            <div class="program-card__img-wrap">
+              <img src="./assets/program-method.png" alt="Метод Усмановой" style="object-position: 50% 12%;" />
+              <span class="tag">Флагман</span>
+            </div>
+            <div class="program-card__body">
+              <h3>Метод Усмановой</h3>
+              <p>Освоите технику и втянетесь в регулярные тренировки без травм и через силу.</p>
+              <button class="link-button" data-scroll="#lead-form">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="program-card reveal" data-type="home">
+            <div class="program-card__img-wrap">
+              <img src="./assets/program-gym.png" alt="Результаты учениц марафона стройности" style="object-position: 50% 6%;" />
+              <span class="tag">Марафон</span>
+            </div>
+            <div class="program-card__body">
+              <h3>Стройности</h3>
+              <p>Первый видимый результат за 21 день: уходит первый жир, появляется тонус и лёгкость.</p>
+              <button class="link-button" data-scroll="#lead-form">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="program-card reveal" data-type="gym">
+            <div class="program-card__img-wrap">
+              <img src="./assets/hero.png" alt="Тренировки в зале" style="object-position: 50% 10%;" />
+              <span class="tag">Курс</span>
+            </div>
+            <div class="program-card__body">
+              <h3>Для зала</h3>
+              <p>Готовая программа для мышечного объёма, когда дома прогресс уже остановился.</p>
+              <button class="link-button" data-scroll="#lead-form">Подробнее</button>
+            </div>
+          </article>
+
+          <article class="program-card reveal" data-type="recovery">
+            <div class="program-card__img-wrap">
+              <img src="./assets/trust-1.png" alt="Восстановление после родов" style="object-position: 72% 22%;" />
+              <span class="tag">Курс</span>
+            </div>
+            <div class="program-card__body">
+              <h3>Восстановление</h3>
+              <p>Диастаз, тазовое дно, осанка, затем стройность и тонус после родов или кесарева.</p>
+              <button class="link-button" data-scroll="#lead-form">Подробнее</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="lead" id="lead-form">
+        <div class="lead__copy reveal">
+          <h2>Получите подбор программы</h2>
+          <p>Оставьте контакты — менеджер подберёт старт по цели, уровню подготовки и формату тренировок.</p>
+          <div class="lead__stats">
+            <span>580 000+ учениц</span>
+            <span>15+ лет опыта</span>
+            <span>дом / зал / восстановление</span>
+          </div>
+        </div>
+
+        <form class="form reveal" id="requestForm">
+          <label>
+            Имя
+            <input name="name" type="text" placeholder="Анна" required />
+          </label>
+          <label>
+            Телефон
+            <input name="phone" type="tel" placeholder="+7 999 000-00-00" required />
+          </label>
+          <label>
+            Цель
+            <select name="goal">
+              <option>Похудеть и подтянуться</option>
+              <option>Подкачать ягодицы</option>
+              <option>Вернуться в форму после родов</option>
+              <option>Тренироваться в зале</option>
+            </select>
+          </label>
+          <button class="button button--primary form__submit" type="submit">Отправить заявку</button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <span class="site-footer__logo">UsmanovaFit</span>
+        <p class="site-footer__copy">© 2024 Онлайн-программы Екатерины Усмановой. Все права защищены.</p>
+        <div class="site-footer__socials">
+          <a href="#" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="VK">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.162 18.994c.609 0 .858-.406.851-1.028-.031-1.678 .552-2.524 1.868-1.028l2.508 2.74c.453.499.743.856 1.531.856h2.36c1.093 0 1.335-.493.833-1.106-.8-.978-2.91-3.095-2.91-3.095-.8-.951-.694-1.235.271-2.538 1.061-1.425 2.971-3.927 3.27-4.602.33-.73.094-1.093-.78-1.093h-2.363c-.796 0-1.054.404-1.358 1.045 0 0-1.63 3.418-3.933 5.65-.747.72-1.08.948-1.493.948-.202 0-.525-.228-.525-1.017V7.498c0-.812-.204-1.158-.81-1.158H8.986c-.468 0-.748.348-.748.677 0 .712.966.877 1.065 2.882v4.35c0 1.028-.187 1.222-.594 1.222-1.077 0-3.7-3.453-5.257-7.405C3.17 7.077 2.889 6.34 2.084 6.34H-.28c-.894 0-1.073.421-.715 1.103 1.603 3.325 5.477 9.548 9.428 9.548l.017.003z"/></svg>
+          </a>
+          <a href="#" aria-label="Telegram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

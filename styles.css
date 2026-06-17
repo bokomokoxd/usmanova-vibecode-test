@@ -241,8 +241,8 @@ h1 span {
 .hero__photo {
   position: relative;
   z-index: 2;
-  width: min(480px, 100%);
-  filter: drop-shadow(0 30px 40px rgba(0,0,0,0.10));
+  width: min(440px, 88%);
+  filter: drop-shadow(0 32px 44px rgba(0,0,0,0.14));
   animation: float 6s ease-in-out infinite;
 }
 

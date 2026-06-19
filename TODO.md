@@ -1,3 +1,7 @@
+## [2026-06-19] Pages sync for cleaned cards and single collage
+
+- [x] Sync the latest local landing files into the Pages repo.
+- [x] Publish the updated hero, single trust collage, and cleaned block 3 cards.
 ## [2026-06-19] Deploy synced landing asset refresh
 
 - [x] Sync the latest working landing files from usmanova test claude.

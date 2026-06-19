@@ -230,6 +230,20 @@ h1 span {
   justify-content: center;
 }
 
+.hero__visual::before {
+  content: "";
+  position: absolute;
+  top: 4%;
+  right: -2%;
+  width: 34%;
+  height: 92%;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 100% 52%, rgba(255, 247, 251, 0.98) 0%, rgba(255, 247, 251, 0.88) 28%, rgba(255, 247, 251, 0.46) 54%, rgba(255, 247, 251, 0.1) 74%, rgba(255, 247, 251, 0) 100%);
+  filter: blur(18px);
+}
+
 .hero__glow {
   position: absolute;
   inset: 10% 6% 10%;

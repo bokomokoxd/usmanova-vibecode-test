@@ -1,3 +1,7 @@
+## [2026-06-19] Hero right-edge background blend fix
+
+- [x] Remove the visible white edge from the hero source image.
+- [x] Add a right-side blend layer so the hero fades into the page background.
 ## [2026-06-19] Pages sync for hero fit and transparent card assets
 
 - [x] Sync the repaired hero and card assets into the Pages repo.

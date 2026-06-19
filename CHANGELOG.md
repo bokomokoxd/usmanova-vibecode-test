@@ -1,3 +1,9 @@
+## [2026-06-19] Hero right-edge background blend fix
+
+### Changed
+
+- Cleaned the embedded white background from the hero asset and added a soft right-side page-colored blend layer.
+- Tuned the hero visual so the image edge merges into the page background instead of reading as a separate rectangle.
 ## [2026-06-19] Pages sync for hero fit and transparent card assets
 
 ### Changed

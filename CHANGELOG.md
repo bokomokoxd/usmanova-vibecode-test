@@ -1,3 +1,9 @@
+## [2026-06-19] Pages sync for hero fit and transparent card assets
+
+### Changed
+
+- Synced the updated hero source and layout tuning from usmanova test claude.
+- Published the transparent/tight card figure assets and new card image fitting rules for block 3.
 ## [2026-06-19] Pages sync for cleaned cards and single collage
 
 ### Changed

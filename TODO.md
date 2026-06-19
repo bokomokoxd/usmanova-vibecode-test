@@ -1,3 +1,7 @@
+## [2026-06-19] Pages sync for hero fit and transparent card assets
+
+- [x] Sync the repaired hero and card assets into the Pages repo.
+- [x] Publish the updated hero fit/fade and larger block 3 figure layout.
 ## [2026-06-19] Pages sync for cleaned cards and single collage
 
 - [x] Sync the latest local landing files into the Pages repo.
